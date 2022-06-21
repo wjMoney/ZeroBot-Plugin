@@ -20,8 +20,8 @@ func init() {
 			"- 今天是什么少女[@xxx]\n" +
 			"- 异世界转生[@xxx]\n" +
 			"- 卖萌[@xxx]\n" +
-			"- 抽老婆[@xxx]\n"+
-		        "- 黄油角色[@xxx]\n",
+			"- 抽老婆[@xxx]\n" +
+			"- 黄油角色[@xxx]\n",
 	})
 	engine.OnPrefix("异世界转生", number(587874)).SetBlock(true).Limit(ctxext.LimitByUser).Handle(handlepic)
 	engine.OnPrefix("今天是什么少女", number(162207)).SetBlock(true).Limit(ctxext.LimitByUser).Handle(handlepic)
